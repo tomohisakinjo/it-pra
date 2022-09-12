@@ -1,0 +1,33 @@
+@charset "UTF-8";
+html {
+    font-size: 100%;
+}
+.contener{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-title{
+  color: black;
+}
+
+.item{
+    width: 100%;
+    height: 50%;
+}
+
+.list-group{
+    text-align: center;
+}
+li {
+  list-style: none;
+  border: 0.5px solid black;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.texts{
+  text-decoration-line: line-through;
+  background-color: palegreen;
+}
